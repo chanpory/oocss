@@ -20,7 +20,7 @@ b{display:block;background-repeat:no-repeat;font-size:1%;position:relative;z-ind
 .tr, .tl{overflow:hidden;margin-bottom:-32000px;}/* margin bottom needs to be < -9px */
 .bl,.br{margin-top:-10px;}
 .top{background-position:center top;}
-.bottom{background-position:center bottom;_zoom:1;}/* this zoom required for IE5.5 only*/
+.bottom{background-position:center bottom;}
 /* complex */
 .complex{overflow:hidden;*position:relative;*zoom:1;}/* position/zoom required for IE7, 6, 5.5 */
 .complex .tl, .complex .tr{height:32000px; margin-bottom:-32000px;width:10px;}
@@ -32,4 +32,4 @@ b{display:block;background-repeat:no-repeat;font-size:1%;position:relative;z-ind
 .pop .inner{right:-10px; bottom:-10px; background-position:right bottom;padding:0 10px 10px 0;}
 .pop .tl, .pop .br{display:none;}
 .pop .bl{bottom:-10px;}
-.pop .tr{float:right;margin-right:-10px;_display:inline;/fix double margin bug/}
+.pop .tr{float:right;margin-right:-10px;}
