@@ -11,4 +11,16 @@
 .size2of5{width:40%;}
 .size3of5{width:60%;}
 .size4of5{width:80%;}
+.size1of6{width:16.66666%};
+.size5of6{width:83.33333%};
+.size1of7{width:14.28571%} /* Unit width for calendars */
+.size1of8{width:12.5%};
+.size3of8{width:37.5%};
+.size5of8{width:62.5%};
+.size7of8{width:87.5%};
+.size1of12{width:8.33333%};
+.size5of12{width:41.66666%};
+.size7of12{width:58.33333%};
+.size11of12{width:91.66666%};
+
 .lastUnit{display:table-cell;float:none;width:auto;*display:block;*zoom:1;}
